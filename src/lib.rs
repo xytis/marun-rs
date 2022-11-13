@@ -1,3 +1,10 @@
+extern crate core;
+
+mod un;
+mod mar;
+mod xml;
+mod error;
+
 pub fn add(left: usize, right: usize) -> usize {
     left + right
 }
